@@ -48,12 +48,12 @@ docker run -d --name webapp wildflywebapp
 }
 ```
 
-* AWSEBDockerrunVersion
+<pre>
+AWSEBDockerrunVersion
 Specifies the version number as the value "2" for multicontainer Docker environments.
-* Authentication
+Authentication
 The location in Amazon S3 of a .dockercfg file that contains authentication data for a private repository 
-* containerDefinitions
-	
+containerDefinitions
 	An array of container definitions
 	name
 	The name of the container.
@@ -67,7 +67,7 @@ The location in Amazon S3 of a .dockercfg file that contains authentication da
 	Maps network ports on the container to ports on the host.
 	links
 	List of containers to link to. Linked containers can discover each other and communicate securely. 
-
+</pre>
 
 ###Deploy Elastic Beanstalk application
 
