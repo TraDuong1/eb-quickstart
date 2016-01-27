@@ -1,5 +1,5 @@
 
-Sample web deployed on [multicontainer Docker platform for Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker_ecs.html)
+Sample web app deployed on [multicontainer Docker platform for Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker_ecs.html)
 
 ## Prerequisites
 
