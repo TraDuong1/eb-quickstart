@@ -53,7 +53,7 @@ Specifies the version number as the value "2" for multicontainer Docker environm
 * Authentication
 The location in Amazon S3 of a .dockercfg file that contains authentication data for a private repository 
 * containerDefinitions
-	An array of container definitions
+	** An array of container definitions
 	name
 	The name of the container.
 	image
