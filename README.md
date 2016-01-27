@@ -1,5 +1,6 @@
 
-This demonstrates a sample web app to be deployed on [multicontainer Docker platform for Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker_ecs.html)
+This demonstrates a sample web app to be deployed on [multicontainer Docker platform for Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker_ecs.html). It recommends Docker image to be prebuilt and stored in a private Docker image repository.
+
 
 ## Prerequisites
 
