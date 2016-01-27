@@ -28,7 +28,7 @@ docker run -d --name webapp wildflywebapp
 ```
 
 ###Create Dockerrun.aws.json (v2)
-```javascript
+```json
 {
     "AWSEBDockerrunVersion": 2,
     "Authentication": {
@@ -47,6 +47,27 @@ docker run -d --name webapp wildflywebapp
     }]
 }
 ```
+
+* AWSEBDockerrunVersion
+Specifies the version number as the value "2" for multicontainer Docker environments.
+* Authentication
+The location in Amazon S3 of a .dockercfg file that contains authentication data for a private repository 
+* containerDefinitions
+	An array of container definitions
+	name
+	The name of the container.
+	image
+	The name of a Docker image in an private Docker repository 
+	environment
+	An array of environment variables to pass to the container. 
+	essential
+	True if the task should stop if the container fails.  
+	portMappings
+	Maps network ports on the container to ports on the host.
+	links
+	List of containers to link to. Linked containers can discover each other and communicate securely. 
+
+
 ###Deploy Elastic Beanstalk application
 
 * Use EB CLI to deploy and manage your Elastic Beanstalk applications and environments.
