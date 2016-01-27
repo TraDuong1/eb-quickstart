@@ -1,11 +1,11 @@
 
-This app focusses on [multi container docker environments](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker_ecs.html)
+Sample web deployed on [multicontainer Docker platform for Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker_ecs.html)
 
 ## Prerequisites
 
 * [boot2docker](http://boot2docker.io/)
 * [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/)
-* [AWS Account](http://aws.amazon.com/console/) Activated and ready to go.
+* [AWS Account](http://aws.amazon.com/console/) 
 * [AWS CLI](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).
 
 ## Steps
@@ -26,6 +26,7 @@ docker run -d --name webapp wildflywebapp
 ```
 
 ###Create Dockerrun.aws.json (v2)
+```javascript
 {
     "AWSEBDockerrunVersion": 2,
     "Authentication": {
@@ -43,10 +44,11 @@ docker run -d --name webapp wildflywebapp
         }]
     }]
 }
-
-###Deploy Elastic Beanstalk application:
+```
+###Deploy Elastic Beanstalk application
 ```sh
 > eb init
 > eb create <environment_name>
+# update the app 
 > eb deploy
 # if all goes well your app will be up on AWS
