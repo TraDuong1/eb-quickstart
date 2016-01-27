@@ -23,9 +23,9 @@ This demonstrates a sample web app to be deployed on [multicontainer Docker plat
 > docker tag 311a65c4dc55 <private_repo>/wildflywebapp
 > docker push <private_repo>/wildflywebapp
 # test the image
-docker run -d --name webapp wildflywebapp
+> docker run -d --name webapp wildflywebapp
 # verify webapp starts successfully 
->docker logs -f webapp
+> docker logs -f webapp
 ```
 
 ###Create Dockerrun.aws.json (v2)
