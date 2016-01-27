@@ -87,3 +87,5 @@ The location in Amazon S3 of a .dockercfg file that contains authentication da
 > eb deploy
 # if all goes well your app will be up on AWS
 # http://<environment_url>/wildfly-helloworld/HelloWorld
+> eb terminate
+# Terminate the environment when you no longer use 
