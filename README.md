@@ -7,7 +7,7 @@ This demonstrates a sample web app to be deployed on [multicontainer Docker plat
 * [boot2docker](http://boot2docker.io/)
 * [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/)
 * [AWS Account](http://aws.amazon.com/console/) 
-* [AWS CLI](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).
+* [AWS CLI](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html)
 
 ## Steps
 
