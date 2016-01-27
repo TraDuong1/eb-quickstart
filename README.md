@@ -13,6 +13,7 @@ Sample web app deployed on [multicontainer Docker platform for Elastic Beanstalk
 ###Build Docker image
 ```sh
 > git clone https://github.com/TraDuong1/eb-quickstart
+> cd docker
 # Log into a private Docker registry
 > docker login <private_Docker_registry>
 # Build the image
