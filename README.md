@@ -47,9 +47,19 @@ docker run -d --name webapp wildflywebapp
 }
 ```
 ###Deploy Elastic Beanstalk application
+
+* Use EB CLI to deploy and manage your Elastic Beanstalk applications and environments.
+* Install EB CLI: http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
+
 ```sh
+# Configure the EB CLI
 > eb init
-> eb create <environment_name>
-# update the app 
+# Create your first environment. If your project directory has source code in it, the EB CLI will bundle it up and deploy it to your environment
+> eb create. 
+# Check the current status of your environment
+> eb status
+# See a list of events output by Elastic Beanstalk
+> eb events
+# Once the environment is up and ready, you can update it 
 > eb deploy
 # if all goes well your app will be up on AWS
