@@ -47,9 +47,9 @@ docker run -d --name webapp wildflywebapp
     }]
 }
 ```
-
+* Dockerrun.aws.json descriptions
 <pre>
-AWSEBDockerrunVersion
+<b>AWSEBDockerrunVersion</b>
 Specifies the version number as the value "2" for multicontainer Docker environments.
 Authentication
 The location in Amazon S3 of a .dockercfg file that contains authentication data for a private repository 
