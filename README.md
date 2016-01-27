@@ -64,3 +64,4 @@ docker run -d --name webapp wildflywebapp
 # Once the environment is up and ready, you can update it 
 > eb deploy
 # if all goes well your app will be up on AWS
+# http://<environment_url>/wildfly-helloworld/HelloWorld
